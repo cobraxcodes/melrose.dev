@@ -16,10 +16,10 @@ export default function App() {
       <Home />
     </section>
     <section className="w-screen h-full snap-start">
-      <Projects />
+      <AboutMe />
     </section>
     <section className="w-screen h-full snap-start">
-      <AboutMe />
+      <Projects />
     </section>
   </main>
 </>

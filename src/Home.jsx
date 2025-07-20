@@ -31,7 +31,7 @@ export default function Home() {
                 Contact Me
               </a>
               <a href="#" className="text-sm/6 font-semibold text-gray-900">
-                Explore backend projects <span aria-hidden="true">→</span>
+                Scroll that way <span aria-hidden="true">→</span>
               </a>
             </div>
           </div>
