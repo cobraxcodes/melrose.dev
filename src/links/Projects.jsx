@@ -32,7 +32,7 @@ const tiers = [
     id: 'tier-enterprise',
     href: '#',
     priceMonthly: 'Aegis Sentinel',
-    description: 'AI-powered backend system that monitors and protects APIs by detecting abnormal request behavior in real time. It combines user behavior analytics, machine learning, and automated threat response to flag intrusions before they become breaches.',
+    description: 'A backend system that monitors and protects APIs by detecting abnormal request behavior in real time. It combines user behavior analytics, machine learning, and automated threat response to flag intrusions before they become breaches.',
     features: [
       'AI-Powered Anomaly Detection',
       'Real-Time Threat Response',
@@ -51,7 +51,7 @@ export default function Projects() {
   return (
     <div id="projects" className="relative isolate bg-white px-6 py-16 lg:px-8">
       <div className="mx-auto max-w-4xl text-center">
-        <p className="mt-2 text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">Projects</p>
+        <p className="mt-2 text-4xl font-semibold tracking-tight text-lime-400 sm:text-5xl">Projects</p>
       </div>
 
       <div className="mx-auto mt-16 grid max-w-6xl grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
@@ -72,7 +72,7 @@ export default function Projects() {
             <ul className="mt-6 space-y-2 text-sm">
               {tier.features.map((feature) => (
                 <li key={feature} className="flex gap-x-2 items-start">
-                  <CheckIcon className="h-5 w-5 text-indigo-500 flex-none mt-0.5" />
+                  <CheckIcon className="h-5 w-5 text-lime-500 flex-none mt-0.5" />
                   <span>{feature}</span>
                 </li>
               ))}
@@ -82,12 +82,12 @@ export default function Projects() {
              target='_blank'
              rel="noopener noreferrer"
               href={tier.href}
-              className={classNames(
-                tier.featured
-                  ? 'bg-indigo-500 text-white hover:bg-indigo-400'
-                  : 'text-indigo-600 border border-indigo-200 hover:border-indigo-400',
-                'mt-6 block rounded-md px-4 py-2.5 text-center text-sm font-semibold'
-              )}
+             className={classNames(
+                      tier.featured
+                        ? 'bg-emerald-500 text-black hover:bg-indigo-400'
+                        : 'border border-lime-400 hover:bg-lime-600 text-black',
+                      'mt-6 block rounded-md px-4 py-2.5 text-center text-sm font-semibold'
+                    )}
             >
              Explore
             </a>
