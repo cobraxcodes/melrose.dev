@@ -9,7 +9,7 @@ export default function GetInTouch() {
             Send A Message
           </h2>
 
-          <div className="flex flex-wrap justify-center gap-6 mb-10 text-gray-800 dark:text-gray-200">
+          <div className="flex flex-wrap justify-center gap-6 mb-10 text-gray-200 dark:text-gray-200">
             {/* social icons */}
             <a
               href="https://linkedin.com/in/melrose-ceballos"
@@ -57,7 +57,7 @@ export default function GetInTouch() {
             <div>
               <label
                 htmlFor="email"
-                className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
+                className="block mb-2 text-sm font-medium text-gray-300 dark:text-gray-300"
               >
                 Your email
               </label>
@@ -73,7 +73,7 @@ export default function GetInTouch() {
             <div>
               <label
                 htmlFor="subject"
-                className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
+                className="block mb-2 text-sm font-medium text-gray-300 dark:text-gray-300"
               >
                 Subject
               </label>
@@ -89,7 +89,7 @@ export default function GetInTouch() {
             <div>
               <label
                 htmlFor="message"
-                className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400"
+                className="block mb-2 text-sm font-medium text-gray-300 dark:text-gray-400"
               >
                 Your message
               </label>
@@ -98,7 +98,7 @@ export default function GetInTouch() {
                 id="message"
                 rows="6"
                 placeholder="Leave a message..."
-                className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 max-w-full"
+                className="block p-2.5 w-full text-sm text-gray-300 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 max-w-full"
               ></textarea>
             </div>
             <button
