@@ -14,8 +14,8 @@ const tiers = [
     id: 'tier-startup',
     href: '#',
     priceMonthly: 'Hawaiian Homes Tracker REST API',
-    description: 'I am a placeholder text',
-    features: ['I am a placeholder text', 'I am a placeholder text', 'I am a placeholder text', 'I am a placeholder text'],
+    description: 'Transforms 40,000+ misaligned DHHL PDF records into clean, structured data. First of its kind, it is meant to service natives to retrieve application updates eliminating searching through 200+ pages of PDF',
+    features: ['RESTful CRUD API Endpoints', 'MongoDB Atlas Integration', 'Application Search and Filitering',],
     featured: false,
   },
   {
@@ -49,7 +49,7 @@ function classNames(...classes) {
 
 export default function Projects() {
   return (
-    <div className="relative isolate bg-white px-6 py-16 lg:px-8">
+    <div id="projects" className="relative isolate bg-white px-6 py-16 lg:px-8">
       <div className="mx-auto max-w-4xl text-center">
         <p className="mt-2 text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">Projects</p>
       </div>

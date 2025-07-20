@@ -23,7 +23,7 @@ export default function App() {
         <section className="w-screen h-full snap-start">
           <Projects />
         </section>
-        <section className="w-screen h-full snap-start">
+        <section id='contact' className="w-screen h-full snap-start">
           <GetInTouch />
         </section>
       </main>
