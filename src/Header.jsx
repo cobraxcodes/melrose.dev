@@ -67,9 +67,6 @@ const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
           <a to="/resources" className="text-sm/6 font-semibold text-gray-900">
             Nice To Meet You
           </a>
-          <a to="/profile" className="text-sm/6 font-semibold text-gray-900">
-            Socials
-          </a>
         </PopoverGroup>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
        
@@ -113,13 +110,6 @@ const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
                     onClick={() => setMobileMenuOpen(false)}
                 >
                   Nice To Meet You
-                </a>
-                <a
-                  to="/profile"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
-                    onClick={() => setMobileMenuOpen(false)}
-                >
-                  Socials
                 </a>
               </div>
             </div>
