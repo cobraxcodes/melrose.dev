@@ -3,19 +3,19 @@ import { CheckIcon } from '@heroicons/react/20/solid'
 const tiers = [
   {
     id: 'tier-hobby',
-    href: '#',
+    href: 'https://github.com/cobraxcodes/Frontend-Hawaiian-Homes-Tracker',
     priceMonthly: 'Hawaiian Homes Tracker',
-    description: "A fullstack project meant to service native hawaiians",
-    features: ['I am a placeholder text', 'I am a placeholder text', 'I am a placeholder text', 'I am a placeholder text'],
+    description: "The frontend companion to the backend-designed Hawaiian Homes Tracker (HHT) database, built with a focus on user interaction and accessibility",
+    features: ['Responsive Design', 'Lazy Loading ', 'Secure CRUD Operations', 'Advanced API Search And Query'],
     featured: false,
   },
   {
     
     id: 'tier-startup',
-    href: '#',
+    href: 'https://github.com/cobraxcodes/Hawaiian-Homes-Tracker',
     priceMonthly: 'Hawaiian Homes Tracker REST API',
     description: 'Transforms 40,000+ misaligned DHHL PDF records into clean, structured data. First of its kind, it is meant to service natives to retrieve application updates eliminating searching through 200+ pages of PDF',
-    features: ['RESTful CRUD API Endpoints', 'MongoDB Atlas Integration', 'Application Search and Filitering',],
+    features: ['RESTful CRUD API Endpoints', 'MongoDB Atlas Integration', 'JWT Authorization',],
     featured: false,
   },
   {
@@ -23,21 +23,21 @@ const tiers = [
     id: 'tier-pro',
     href: '#',
     priceMonthly: 'The Bridge Protocol',
-    description: 'I am a placeholder text',
-    features: ['I am a placeholder text', 'I am a placeholder text', 'I am a placeholder text', 'I am a placeholder text'],
+    description: 'AI-powered digital oracle that delivers unpredictable, emotionally-aware decisions by blending logic, randomness, and user prompts to simulate human-like responses',
+    features: ['Simulated Emotion Engine', 'Unpredictable Decision Endpoint', 'Reasoning Response Format', 'Memory-Influenced Behavior'],
     featured: false,
   },
   {
     
     id: 'tier-enterprise',
     href: '#',
-    priceMonthly: 'Another project here',
-    description: 'I am a placeholder text',
+    priceMonthly: 'Aegis Sentinel',
+    description: 'AI-powered backend system that monitors and protects APIs by detecting abnormal request behavior in real time. It combines user behavior analytics, machine learning, and automated threat response to flag intrusions before they become breaches.',
     features: [
-      'I am a placeholder text',
-      'I am a placeholder text',
-      'I am a placeholder text',
-      'I am a placeholder text',
+      'AI-Powered Anomaly Detection',
+      'Real-Time Threat Response',
+      'Behavior Logging Engine ',
+      'Auto-Adaptive Security Layer',
     ],
     featured: false,
   },
@@ -79,6 +79,8 @@ export default function Projects() {
             </ul>
 
             <a
+             target='_blank'
+             rel="noopener noreferrer"
               href={tier.href}
               className={classNames(
                 tier.featured
