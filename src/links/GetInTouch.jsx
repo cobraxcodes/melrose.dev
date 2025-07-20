@@ -3,7 +3,7 @@
 export default function GetInTouch() {
   return (
     <>
-      <section id="contact" className="bg-white dark:bg-black">
+      <section id="contact" className="bg-black dark:bg-black">
         <div className="py-3 lg:py-16 px-4 mx-auto max-w-screen-md">
           <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-lime-400 dark:text-lime-400">
             Send A Message

@@ -1,6 +1,6 @@
 export default function AboutMe() {
   return (
-    <section className="bg-white dark:bg-black min-h-screen flex items-center py-12 px-4 sm:px-6 lg:px-8">
+    <section className="bg-black dark:bg-black min-h-screen flex items-center py-12 px-4 sm:px-6 lg:px-8">
       <div className="mx-auto max-w-screen-xl w-full grid gap-10 lg:grid-cols-2 items-center">
         {/* Text Content */}
         <div className="text-gray-500 sm:text-lg dark:text-gray-400 font-light">
