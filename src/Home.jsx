@@ -1,6 +1,4 @@
 'use client'
-import StackIcon from "tech-stack-icons";
-
 
 export default function Home() {
   
@@ -21,7 +19,7 @@ export default function Home() {
               Hi, <br/> My name is <span className="text-lime-500"> Melrose </span>
             </h1>
             <p className="mt-8 text-lg font-medium text-pretty text-gray-500 sm:text-xl/8">
-             Backend developer, potterhead, and karaoke-lover — building systems that protect, empower, and scale.
+             Backend engineer, potterhead, and karaoke-lover — building systems that protect, empower, and scale.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
